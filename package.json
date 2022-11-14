@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "fix": "yarn lint && yarn format",
+    "lint": "rome check src/",
+    "format": "rome format src/"
   },
   "dependencies": {
     "@types/node": "18.11.9",

@@ -4,5 +4,14 @@
     "rules": {
       "recommended": true
     }
+  },
+  "formatter": {
+    "indentStyle": "tab",
+    "indentSize": 2
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
   }
 }
