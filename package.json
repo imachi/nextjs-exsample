@@ -11,6 +11,8 @@
     "format": "rome format src/"
   },
   "dependencies": {
+    "@chakra-ui/icon": "^3.0.12",
+    "@chakra-ui/icons": "^2.0.12",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
@@ -19,5 +21,11 @@
     "react-dom": "18.2.0",
     "rome": "^10.0.1",
     "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^7.6.12"
   }
 }
